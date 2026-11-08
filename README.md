@@ -1,5 +1,7 @@
 # TED Tender Radar
 
+[![CI](https://github.com/marchikx/ted-tender-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/marchikx/ted-tender-radar/actions/workflows/ci.yml) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 Small Python library for **TED notice intake, normalization, and scoring** — extracted and sanitized from a larger procurement-ingestion prototype. Tests run fully offline via fixtures (no live TED API calls in CI).
 
 > **Hire note:** Built as **TED notice intake + scoring for our ops team** — turning EU procurement notices into normalized records, evidence hashes, and ranked candidates without cold-calling buyers.
