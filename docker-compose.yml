@@ -1,0 +1,15 @@
+# Optional Postgres for future persistence — not required for `make verify`.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ted_radar
+      POSTGRES_PASSWORD: ted_radar_dev
+      POSTGRES_DB: ted_radar
+    ports:
+      - "54329:5432"
+    volumes:
+      - ted_radar_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ted_radar_pgdata:

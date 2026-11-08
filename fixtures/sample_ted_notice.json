@@ -1,0 +1,23 @@
+{
+  "publication-number": "900001-2026",
+  "publication-date": "2026-07-13+02:00",
+  "notice-title": {
+    "eng": ["Regional digital identity wallet platform"]
+  },
+  "buyer-name": {
+    "eng": ["Demo Public Procurement Unit"]
+  },
+  "buyer-country": ["MLT"],
+  "place-of-performance": ["MLT"],
+  "deadline-receipt-tender-date-lot": ["2026-09-03+02:00"],
+  "deadline-receipt-tender-time-lot": ["09:30:00+02:00"],
+  "classification-cpv": ["72212900", "48000000"],
+  "estimated-value-lot": ["15659714"],
+  "estimated-value-cur-lot": ["EUR"],
+  "form-type": "competition",
+  "links": {
+    "html": {
+      "ENG": "https://ted.europa.eu/en/notice/-/detail/900001-2026"
+    }
+  }
+}
